@@ -72,6 +72,11 @@
 }
 
 /* Index.css */
+
+.navbar {
+  display: none;
+}
+
 .header {
   height: 4.25rem;
   background: #fff;
@@ -630,6 +635,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .contacts__btn:nth-child(2),
+  .contacts__btn:nth-child(3) {
+    display: none;
+  }
+
   .contacts__row-2 {
     flex-flow: column;
     align-items: stretch;
@@ -645,6 +655,10 @@
     max-height: 22.25rem;
     width: 100%;
     height: 100%;
+  }
+
+  .footer {
+    margin-bottom: 3rem;
   }
 
   .support-section__title {
@@ -740,5 +754,24 @@
     position: fixed;
     top: 1.5rem;
     right: 1.5rem;
+  }
+
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background: #fff;
+    width: 100%;
+  }
+
+  .navbar__link {
+    height: 3rem;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.875rem;
   }
 }
