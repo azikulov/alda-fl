@@ -469,6 +469,8 @@
   height: 24.75rem;
   border-radius: 1rem;
   position: relative;
+  border: none;
+  outline: none;
 }
 
 .google-maps::before {
