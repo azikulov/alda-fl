@@ -73,6 +73,17 @@
 
 /* Index.css */
 
+.hero-section__bg-video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  margin: auto;
+  z-index: -1;
+}
+
 .navbar {
   display: none;
 }
@@ -134,7 +145,7 @@
 }
 
 .hero-section {
-  background: #339989;
+  position: relative;
   padding-top: 7.5rem;
   padding-bottom: 4.25rem;
 }
@@ -637,6 +648,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .hero-section__bg-video {
+    height: 30rem;
+    width: auto;
+  }
+
   .contacts__btn:nth-child(2),
   .contacts__btn:nth-child(3) {
     display: none;
