@@ -207,6 +207,8 @@
 
 .hero-section {
   position: relative;
+  width: 100vw;
+  overflow: hidden;
   padding-top: 7.5rem;
   padding-bottom: 4.25rem;
 }
