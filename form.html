@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Запись на прием</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header__logo">
+          <img src="./assets/images/logo.png" alt="57x52" />
+          <span>Медицинский центр "Альда"</span>
+        </div>
+
+        <a href="#menu" class="header__menu" id="menu-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#1e1e1e">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </a>
+
+        <div class="header__links" id="menu">
+          <a href="#" class="close-button"
+            ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#1e1e1e">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </a>
+          <a href="./index.html" class="header__link">alda</a>
+          <a href="./form.html" class="header__link header__link_active">запись на прием</a>
+          <a href="#contacts" class="header__link">контакты</a>
+        </div>
+      </div>
+    </div>
+
+    <form action="#" method="get" class="form container">
+      <div class="form__col-1">
+        <h2 class="form__title">запись на прием</h2>
+
+        <div class="form__row-1">
+          <div class="form__field">
+            <div class="form__field-title">фио</div>
+            <input class="form__field-input" type="text" />
+          </div>
+          <div class="form__field">
+            <div class="form__field-title">номер телефона</div>
+            <input class="form__field-input" type="text" />
+          </div>
+        </div>
+
+        <div class="form__field">
+          <div class="form__field-title">дата</div>
+          <input class="form__field-input" type="date" />
+        </div>
+
+        <div class="form__field">
+          <div class="form__field-title">примечание для автора</div>
+          <textarea class="form__field-input" maxlength="250" cols="50" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="form__button btn btn_primary">отправить</button>
+      </div>
+      <div class="form__col-2">
+        <img class="form__img" src="./assets/images/picture-6.jpg" alt="" />
+      </div>
+    </form>
+
+    <div class="footer">
+      <div class="container">
+        <img class="footer__image" src="./assets/images/footer-logo.png" alt="" />
+        <span class="footer__copyright"
+          >GarCom сайт+ реклама 2022. <br />
+          Все права защищены</span
+        >
+      </div>
+    </div>
+
+    <div class="navbar">
+      <a class="navbar__link" style="background: #75be2b" href="https://api.whatsapp.com/send?phone=77476885805&text="
+        >WhatsApp</a
+      >
+      <a class="navbar__link" style="background: #07acba" href="tel:+7 (701) 710-49-68"> Телефон</a>
+    </div>
+  </body>
+</html>
