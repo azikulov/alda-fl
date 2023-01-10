@@ -180,7 +180,7 @@
   font-weight: 700;
   font-size: 3.25rem;
   color: #ffffff;
-  text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .hero-section__description {
